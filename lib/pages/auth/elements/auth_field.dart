@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kanban_test_task/pages/auth/elements/form_name.dart';
 import 'package:kanban_test_task/pages/auth/elements/validate_form.dart';
 
-class AuthForm extends StatefulWidget {
-  const AuthForm({
+class AuthField extends StatefulWidget {
+  const AuthField({
     Key? key,
     required this.controller,
     required this.globalKey,
@@ -22,10 +22,10 @@ class AuthForm extends StatefulWidget {
   final ControllerForm formName;
 
   @override
-  _AuthFormState createState() => _AuthFormState();
+  _AuthFieldState createState() => _AuthFieldState();
 }
 
-class _AuthFormState extends State<AuthForm> {
+class _AuthFieldState extends State<AuthField> {
   String? validateText;
   @override
   void initState() {

@@ -5,16 +5,6 @@ import 'package:kanban_test_task/pages/task/elements/in_progress_widget.dart';
 import 'package:kanban_test_task/pages/task/elements/needs_review_widget.dart';
 import 'package:kanban_test_task/pages/task/elements/on_hold_widget.dart';
 
-// void getCard() async {
-//   String _token =
-//       await apiClient.getToken(password: 'FSH6zBZ0p9yH', username: 'armada');
-//   print(_token);
-//   final api = await apiClient.getCard(token: _token) as List<CardModel>;
-//   for (var item in api) {
-//     if (item.row == '1') print(item.text);
-//   }
-// }
-
 class TaskPage extends StatelessWidget {
   TaskPage({Key? key, required this.token}) : super(key: key);
   final String token;

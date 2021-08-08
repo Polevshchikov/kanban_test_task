@@ -17,7 +17,7 @@ class CardLoadedState extends CardState {
     required this.needsReviewCard,
     required this.inProgressCard,
     required this.approvedCard,
-  }) : assert(loadedCard != null);
+  });
 }
 
 class CardErrorState extends CardState {}

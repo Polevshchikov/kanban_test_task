@@ -9,7 +9,7 @@ class ValidateTextForm {
     required ControllerForm formName,
     required BuildContext context,
   }) {
-    //  Проверка почты
+    //  Проверка имени пользователя
     if (formName == ControllerForm.formUsername) {
       if (value == '') return S.of(context).validate_empty;
       if (value.length < 4) return S.of(context).validate_username_length;
