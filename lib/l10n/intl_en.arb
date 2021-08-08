@@ -1,0 +1,18 @@
+{
+    "app_bar_title":"Kanban",
+    "tab_bar_tabs_one": "On hold",
+    "tab_bar_tabs_two": "In progress",
+    "tab_bar_tabs_three": "Needs review",
+    "tab_bar_tabs_four": "Approved",
+    "auth_button_text": "Log in",
+    "auth_username_form": "Enter your username",
+    "auth_password_form": "Enter your password",
+    "text_card_id": "ID",
+    "validate_passwodr_length": "Minimum is 8 characters",
+    "validate_username_length": "Minimum is 4 characters",
+    "validate_empty": "Empty field",
+    "error_text":"Failed to load information"
+
+
+
+}

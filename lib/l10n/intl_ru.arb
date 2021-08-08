@@ -1,0 +1,15 @@
+{
+    "app_bar_title":"Kanban",
+    "tab_bar_tabs_one": "В ожидании",
+    "tab_bar_tabs_two": "В процессе",
+    "tab_bar_tabs_three": "Требуется проверка",
+    "tab_bar_tabs_four": "Утверждено",
+    "auth_button_text": "Авторизоваться",
+    "auth_username_form": "Введите имя пользователя",
+    "auth_password_form": "Введите ваш пароль",
+    "text_card_id": "ID",
+    "validate_passwodr_length": "Минимум 8 символов",
+    "validate_username_length": "Минимум 4 символа",
+    "validate_empty": "Пустое поле",
+    "error_text":"Не удалось загрузить информацию"
+}
